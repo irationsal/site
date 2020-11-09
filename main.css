@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 50px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    background-color: lightblue;
+    height: 50px;
+}
+header span {
+    text-size-adjust: large;
+    align-self: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: cornflowerblue;
+}
+.links {
+    align-self: center;
+}
+.links a {
+    text-decoration: none;
+    color: cyan;
+    text-shadow: 1px 1px black;
+    border: 2px black;
+}
+blockquote {
+    font-family: cursive;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projects h2 {
+    align-items: center;
+}
+.code {
+    align-self: flex-end;
+}
+#java {
+    height: 300px;
+    width: 200px;
+}
+#python {
+    height: 200px;
+    width: 200px;
+}
+#js {
+    height: 200px;
+    width: 200px;
+}
